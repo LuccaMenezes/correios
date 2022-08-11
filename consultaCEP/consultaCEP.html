@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylecep.css">
+    <title>Consulta CEP</title>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <img id="logo" src="./img/logo-correios.png" alt="logo-correios">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a id="home" href="/home/home.html">Home</a></li>
+                        <li><a id="cep" href="/consultaCEP/consultaCEP.html">Consulta CEP</a></li>
+                        <li><a id="price" href="#">Preços e Prazos</a></li>
+                        <li><a id="package" href="#">Acompanhe seu Objeto</a></li>
+                        <li><a id="contact" href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Consulta CEP</h2>
+        <form>
+            <div class="fmr-row">
+                <label for="cep">cep</label>
+                <input type="text" name="cep" placeholder="Digite seu CEP" id="cep">
+            </div>
+        </form>
+        <form>
+            <div class="fmr-row">
+                <label for="rua">rua</label>
+                <input type="text" name="rua" id="rua">
+            </div>
+        </form>
+        <form>
+            <div class="fmr-row">
+                <label for="bairro">bairro</label>
+                <input type="text" name="bairro" id="bairro">
+            </div>
+        </form>
+        <form>
+            <div class="fmr-row">
+                <label for="cidade">cidade</label>
+                <input type="text" name="cidade" id="cidade">
+            </div>
+        </form>
+        <form>
+            <div class="fmr-row">
+                <label for="estado">estado</label>
+                <input type="text" name="estado" id="estado">
+            </div>
+        </form>
+    </div>
+
+    <script src="javascript/consulta-cep.js"></script>
+</body>
+</html>
