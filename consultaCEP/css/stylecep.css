@@ -54,7 +54,7 @@ header{
     width: 141px;
 }
 #package:hover::after{
-    width: 202px;
+    width: 128px;
 }
 #contact:hover::after{
     width: 78px;

@@ -85,32 +85,6 @@ body{
     transition: 0.5s;
     text-align: center;
 }
-.card-2{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 20px;
-    transition: 0.5s;
-    text-align: center;
-    margin-left: 400px;
-}
-.card-3{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 20px;
-    transition: 0.5s;
-    text-align: center;
-    margin-left: -400px;
-}
 img{
     transition: 0.5s;
     width: 56px;
@@ -139,11 +113,11 @@ h1{
     margin-top: 20px;
 }
 .card-1:hover{
-    background-color: #053d6b;
+    background-color: #da0505;
     color: white;
     margin-top: -30px;
-    box-shadow: 2px 20px 25px #021320;
-    border-color: #053d6b;
+    box-shadow: 2px 20px 25px #470303;
+    border-color: #da0505;
 }
 .container .card-1:hover img{
     filter: invert(1);
@@ -152,40 +126,6 @@ h1{
     color: white;
 }
 .container .card-1:hover .content a{
-    color: black;
-    background-color: white;
-}
-.card-2:hover{
-    background-color: #c01010;
-    color: white;
-    margin-top: -30px;
-    box-shadow: 2px 20px 25px #470303;
-    border-color: #c01010;
-}
-.container .card-2:hover img{
-    filter: invert(1);
-}
-.container .card-2:hover .content p{
-    color: white;
-}
-.container .card-2:hover .content a{
-    color: black;
-    background-color: white;
-}
-.card-3:hover{
-    background-color: #c01010;
-    color: white;
-    margin-top: -30px;
-    box-shadow: 2px 20px 25px #470303;
-    border-color: #c01010;
-}
-.container .card-3:hover img{
-    filter: invert(1);
-}
-.container .card-3:hover .content p{
-    color: white;
-}
-.container .card-3:hover .content a{
     color: black;
     background-color: white;
 }
